@@ -1,0 +1,117 @@
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 17 20:18:44 2019] ***
+compiled with version: 7.2.0 on 11 August 2019 04:23:28
+os: Linux-4.13.0-46-generic #51-Ubuntu SMP Tue Jun 12 12:36:29 UTC 2018
+nodename: jjj-VirtualBox
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/jjj/vpython/django_web/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/jjj/vpython/django_web/dailyfresh
+your processes number limit is 11717
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8080 fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/jjj/.local/share/virtualenvs/django_python-SFI6mlQu
+Python main interpreter initialized at 0x55dc3ed9dff0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 3 seconds on interpreter 0x55dc3ed9dff0 pid: 8693 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 8693)
+spawned uWSGI worker 1 (pid: 8695, cores: 2)
+spawned uWSGI worker 2 (pid: 8696, cores: 2)
+spawned uWSGI worker 3 (pid: 8697, cores: 2)
+spawned uWSGI worker 4 (pid: 8698, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+Sat Aug 17 20:20:11 2019 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Aug 17 20:20:11 2019 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 17 20:20:18 2019] ***
+compiled with version: 7.2.0 on 11 August 2019 04:23:28
+os: Linux-4.13.0-46-generic #51-Ubuntu SMP Tue Jun 12 12:36:29 UTC 2018
+nodename: jjj-VirtualBox
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/jjj/vpython/django_web/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/jjj/vpython/django_web/dailyfresh
+your processes number limit is 11717
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8080 fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/jjj/.local/share/virtualenvs/django_python-SFI6mlQu
+Python main interpreter initialized at 0x5564b02cdff0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5564b02cdff0 pid: 8785 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 8785)
+spawned uWSGI worker 1 (pid: 8790, cores: 2)
+spawned uWSGI worker 2 (pid: 8791, cores: 2)
+spawned uWSGI worker 3 (pid: 8792, cores: 2)
+spawned uWSGI worker 4 (pid: 8793, cores: 2)
+设置缓存
+[pid: 8793|app: 0|req: 1/1] 127.0.0.1 () {36 vars in 700 bytes} [Sat Aug 17 20:20:31 2019] GET /index => generated 13256 bytes in 11978 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 8792|app: 0|req: 1/2] 127.0.0.1 () {34 vars in 669 bytes} [Sat Aug 17 20:34:41 2019] GET /index => generated 13256 bytes in 19223 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 8790|app: 0|req: 1/3] 127.0.0.1 () {36 vars in 716 bytes} [Sat Aug 17 21:44:07 2019] GET /goods/4 => generated 8593 bytes in 21039 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 0)
+Sat Aug 17 21:47:42 2019 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Aug 17 21:47:42 2019 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 17 22:29:51 2019] ***
+compiled with version: 7.2.0 on 11 August 2019 04:23:28
+os: Linux-4.13.0-46-generic #51-Ubuntu SMP Tue Jun 12 12:36:29 UTC 2018
+nodename: jjj-VirtualBox
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/jjj/vpython/django_web/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/jjj/vpython/django_web/dailyfresh
+your processes number limit is 11717
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8080 fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/jjj/.local/share/virtualenvs/django_python-SFI6mlQu
+Python main interpreter initialized at 0x55d96932bff0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 3 seconds on interpreter 0x55d96932bff0 pid: 2242 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2242)
+spawned uWSGI worker 1 (pid: 2245, cores: 2)
+spawned uWSGI worker 2 (pid: 2246, cores: 2)
+spawned uWSGI worker 3 (pid: 2247, cores: 2)
+spawned uWSGI worker 4 (pid: 2251, cores: 2)
+Sat Aug 17 22:35:27 2019 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Aug 17 22:35:27 2019 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
