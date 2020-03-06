@@ -374,7 +374,7 @@ class CheckPayView(View):
         # 业务处理:使用支付宝的sdk
         # 初始化
         alipay = AliPay(
-            appid="2016100100639519",
+            appid="2016xxxxxxxxx",
             app_notify_url=None,  # 默认回调url
             app_private_key_path=os.path.join(settings.BASE_DIR,'apps/order/app_private_key.pem'),
             # 支付宝的公钥，验证支付宝回传消息使用，不是你自己的公钥,
